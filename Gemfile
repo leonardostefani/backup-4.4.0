@@ -25,7 +25,7 @@ group :production do
   gem 'fog'
   # gem 'excon' - use version specified by fog
   gem 'unf' # for fog/AWS
-  gem 'dropbox-sdk', '1.6.5'
+  gem 'dropbox_api', github: 'vtm9/dropbox_api', branch: 'chunked_file_uploader'
   gem 'net-ssh'
   gem 'net-scp'
   gem 'net-sftp'
