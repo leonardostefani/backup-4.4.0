@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/vtm9/dropbox_api.git
-  revision: 01e40e7a5ea783cc2d046da2e344a151d488cfdd
+  revision: 541bb9deb243b09104dacffd13ace2b06a750808
   branch: chunked_file_uploader
   specs:
     dropbox_api (0.1.9)

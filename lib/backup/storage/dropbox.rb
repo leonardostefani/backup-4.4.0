@@ -87,7 +87,6 @@ module Backup
           raise if retries > max_retries
 
           Logger.info Error.wrap(err, "Retry ##{ retries } of #{ max_retries }.")
-          Logger.info err.backtrace.join("/n")
           sleep(retry_waitsec)
           retry
         end
