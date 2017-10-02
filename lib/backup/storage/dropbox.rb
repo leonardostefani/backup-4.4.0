@@ -97,7 +97,7 @@ module Backup
       def remove!(package)
         Logger.info "Removing backup package dated #{ package.time }..."
 
-        client.delete(remote_path_for(package))
+        client.delete("/#{remote_path_for(package)}")
       end
     end
   end
